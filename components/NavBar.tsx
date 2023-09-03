@@ -17,20 +17,20 @@ const NavBar = () => {
         </div>
         {/* navbar menus */}
         <div className="hidden md:flex space-x-6">
-          <Link href="#" className="hover:text-blue-300">
-            Services
+          <Link href="/" className="hover:text-blue-300">
+            Home
           </Link>
-          <Link href="#" className="hover:text-blue-300">
-            Events
+          <Link href="/weather" className="hover:text-blue-300">
+            Weather
           </Link>
-          <Link href="/About" className="hover:text-blue-300">
-            About us
+          <Link href="/soil" className="hover:text-blue-300">
+            Soil
           </Link>
-          <Link href="#" className="hover:text-blue-300">
-            Terms
+          <Link href="/pests" className="hover:text-blue-300">
+            Pests
           </Link>
-          <Link href="#" className="hover:text-blue-300">
-            Community
+          <Link href="/diseases" className="hover:text-blue-300">
+            Diseases
           </Link>
         </div>
 
