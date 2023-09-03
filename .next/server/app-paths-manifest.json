@@ -1,8 +1,10 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/weather/page": "app/weather/page.js",
-  "/soil/page": "app/soil/page.js",
+  "/page": "app/page.js",
   "/pests/page": "app/pests/page.js",
   "/location/page": "app/location/page.js",
-  "/login/page": "app/login/page.js"
+  "/login/page": "app/login/page.js",
+  "/register/page": "app/register/page.js",
+  "/weather/page": "app/weather/page.js",
+  "/forgotPassword/page": "app/forgotPassword/page.js"
 }
