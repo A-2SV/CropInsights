@@ -20,7 +20,7 @@ const Login = () => {
                 </Link> */}
               </div>
               <h4 className="text-2xl font-semibold mb-4">
-                Welcome to TENCOBA! 👋
+                Welcome to CROPINSIGHTS AI! 👋
               </h4>
               <p className="mb-8">
                 Please sign in to your account and start the adventure
@@ -45,7 +45,7 @@ const Login = () => {
                       Password
                     </label>
                     <Link
-                      href="/ForgotPassword"
+                      href="/forgotPassword"
                       passHref
                       className="text-sm text-blue-500"
                     >
@@ -86,7 +86,7 @@ const Login = () => {
               </form>
               <p className="text-center">
                 <span>New on our platform?</span>
-                <Link href="/Register" passHref className="text-blue-500">
+                <Link href="/register" passHref className="text-blue-500">
                   {" "}
                   Create an account
                 </Link>

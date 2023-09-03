@@ -84,7 +84,7 @@ const Register = () => {
                   />
                 </div>
                 <div className="mb-8">
-                  <Link href="/Dashboard">
+                  <Link href="/">
                     <button
                       className="w-full py-2 px-4 bg-blue-500 text-white rounded-full font-semibold hover:bg-blue-600"
                       type="submit"
@@ -96,7 +96,7 @@ const Register = () => {
               </form>
               <p className="text-center">
                 <span>Already have an account?</span>
-                <Link href="/Login" passHref className="text-blue-500">
+                <Link href="/login" passHref className="text-blue-500">
                   {" "}
                   Sign in
                 </Link>

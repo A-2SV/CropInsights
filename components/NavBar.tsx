@@ -37,7 +37,7 @@ const NavBar = () => {
         {/* Button */}
         <div className="flex mr-12">
           <Link
-            href="/Login"
+            href="/login"
             className="hidden md:block py-2 px-4 text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-600 transition-colors duration-300"
           >
             Login
