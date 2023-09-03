@@ -25,19 +25,19 @@ const Feature = () => {
                   01
                 </div>
                 <h3 className="text-base font-bold md:mb-4 md:hidden">
-                  Provide Financial Advice
+                  Provide Weather Insights
                 </h3>
               </div>
             </div>
             <h3 className="hidden mb-4 text-lg font-bold md:block">
-              Provide Financial Advice
+              Provide Weather Insights
             </h3>
             <p className="text-darkGrayishBlue">
-              Tencoba provides members with all the basic financing tools that
-              are tailor-made to meet the goals of the group in terms of
-              finances. Tencoba provides members with all the basic financing
-              tools that are tailor-made to meet the goals of the group in terms
-              of finances.
+            CropInsights AI provides middle scale to Large scale farmers
+            assisatnce and guidance for Optimized Crop Yields. Farmers get
+            Tailored Insights for their day to day activities in order to
+            enhance your agricultural practices, boost your harvests, and
+            achieve your agricultural goals.
             </p>
           </div>
           {/* item 2 */}
@@ -48,19 +48,19 @@ const Feature = () => {
                   02
                 </div>
                 <h3 className="text-base font-bold md:mb-4 md:hidden">
-                  Provide Financial Advice
+                  Provide Soil condition Insights
                 </h3>
               </div>
             </div>
             <h3 className="hidden mb-4 text-lg font-bold md:block">
-              Provide Financial Advice
+              Provide Soil condition Insights
             </h3>
             <p className="text-darkGrayishBlue">
-              Tencoba provides members with all the basic financing tools that
-              are tailor-made to meet the goals of the group in terms of
-              finances. Tencoba provides members with all the basic financing
-              tools that are tailor-made to meet the goals of the group in terms
-              of finances.
+            CropInsights AI provides middle scale to Large scale farmers
+            assisatnce and guidance for Optimized Crop Yields. Farmers get
+            Tailored Insights for their day to day activities in order to
+            enhance your agricultural practices, boost your harvests, and
+            achieve your agricultural goals.
             </p>
           </div>
           {/* item 3 */}
@@ -71,19 +71,42 @@ const Feature = () => {
                   03
                 </div>
                 <h3 className="text-base font-bold md:mb-4 md:hidden">
-                  Provide Financial Advice
+                  Provide Pest Outbreak Insights
                 </h3>
               </div>
             </div>
             <h3 className="hidden mb-4 text-lg font-bold md:block">
-              Provide Financial Advice
+              Provide Pest Outbreak Insights
             </h3>
             <p className="text-darkGrayishBlue">
-              Tencoba provides members with all the basic financing tools that
-              are tailor-made to meet the goals of the group in terms of
-              finances. Tencoba provides members with all the basic financing
-              tools that are tailor-made to meet the goals of the group in terms
-              of finances.
+            CropInsights AI provides middle scale to Large scale farmers
+            assisatnce and guidance for Optimized Crop Yields. Farmers get
+            Tailored Insights for their day to day activities in order to
+            enhance your agricultural practices, boost your harvests, and
+            achieve your agricultural goals.
+            </p>
+          </div>
+          {/* item 4 */}
+          <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+            <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+              <div className="flex items-center space-x-2">
+                <div className="px-4 py-2 text-white rounded-full md:py-1 bg-blue-500">
+                  04
+                </div>
+                <h3 className="text-base font-bold md:mb-4 md:hidden">
+                  Provide Crop Diseases Insights
+                </h3>
+              </div>
+            </div>
+            <h3 className="hidden mb-4 text-lg font-bold md:block">
+              Provide Crop Diseases Insights
+            </h3>
+            <p className="text-darkGrayishBlue">
+            CropInsights AI provides middle scale to Large scale farmers
+            assisatnce and guidance for Optimized Crop Yields. Farmers get
+            Tailored Insights for their day to day activities in order to
+            enhance your agricultural practices, boost your harvests, and
+            achieve your agricultural goals.
             </p>
           </div>
         </div>
