@@ -9,7 +9,6 @@ import Image from "next/image";
 export default function Home() {
   // ChatComponent ? Why make a new component?
   // ChatComponent -> client, text inputs -> onChange -> we need to make a client side component
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div>
