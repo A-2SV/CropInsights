@@ -3,5 +3,7 @@
   "/weather/page": "app/weather/page.js",
   "/soil/page": "app/soil/page.js",
   "/pests/page": "app/pests/page.js",
-  "/diseases/page": "app/diseases/page.js"
+  "/diseases/page": "app/diseases/page.js",
+  "/location/page": "app/location/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

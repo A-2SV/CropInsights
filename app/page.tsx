@@ -1,6 +1,8 @@
 import Feature from "@/components/Features";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
+import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/cta";
 import Image from "next/image";
 
@@ -15,10 +17,8 @@ export default function Home() {
         <Hero />
         <CTA />
         <Feature />
-        {/* <WeatherSection /> */}
-        {/* <SoilSection /> */}
-        {/* <PestSection /> */}
-        {/* <DiseaseSection /> */}
+        <Testimonials />
+        <Footer />
       </div>
     </main>
   );
