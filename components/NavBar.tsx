@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Nav = () => {
+const NavBar = () => {
   return (
     <nav>
       <div className="flex mt-5 ml-5 mr-5 items-center justify-between">
@@ -12,27 +12,26 @@ const Nav = () => {
             passHref
            
           >
-            {/* <Image src="/logo.png" alt="logo" width={150} height={10} />{" "} */}
-            <a className="text-white text-2xl font-semibold">Crop Insights AI</a>
+            <Image src="/logo.png" alt="logo" width={150} height={10} />{" "}
           </Link>
         </div>
         {/* navbar menus */}
         <div className="hidden md:flex space-x-6">
-          <li>
           <Link href="#" className="hover:text-blue-300">
             Services
           </Link>
-          </li>
-          <li>
           <Link href="#" className="hover:text-blue-300">
             Events
           </Link>
-          </li>
-          <li>
           <Link href="/About" className="hover:text-blue-300">
             About us
           </Link>
-          </li>
+          <Link href="#" className="hover:text-blue-300">
+            Terms
+          </Link>
+          <Link href="#" className="hover:text-blue-300">
+            Community
+          </Link>
         </div>
 
         {/* Button */}
@@ -81,4 +80,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default NavBar;
