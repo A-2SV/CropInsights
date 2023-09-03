@@ -1,6 +1,7 @@
 {
-  "/soil/page": "app/soil/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/weather/page": "app/weather/page.js",
+  "/soil/page": "app/soil/page.js",
   "/pests/page": "app/pests/page.js",
   "/location/page": "app/location/page.js",
   "/login/page": "app/login/page.js"

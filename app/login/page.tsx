@@ -75,7 +75,7 @@ const Login = () => {
                     <span className="ml-2">Remember Me</span>
                   </label>
                 </div>
-                <Link href="/Dashboard">
+                <Link href="/">
                   <button
                     type="submit"
                     className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition duration-200"
