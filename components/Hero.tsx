@@ -15,14 +15,14 @@ const Hero = () => {
             Your Crops to enhance your agricultural practices, boost your
             harvests, and achieve your agricultural goals.
           </p>
-          <div className="flex justify-start">
+          {/* <div className="flex justify-start">
             <Link
               href="/Register"
               className="hidden md:block py-2 px-4 text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-600 transition-colors duration-300"
             >
               Get Started
             </Link>
-          </div>
+          </div> */}
         </div>
         {/* image - right-side */}
         <div className="md:w-1/2">

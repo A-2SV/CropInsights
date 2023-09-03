@@ -1,5 +1,7 @@
+import Feature from "@/components/Features";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
+import CTA from "@/components/cta";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <div>
         <NavBar />
         <Hero />
+        <CTA />
+        <Feature />
         {/* <WeatherSection /> */}
         {/* <SoilSection /> */}
         {/* <PestSection /> */}
