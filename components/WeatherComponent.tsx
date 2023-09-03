@@ -1,6 +1,7 @@
 "use client"
 // WeatherComponent.tsx
 import { useChat, Message } from "ai/react";
+import Link from "next/link";
 
 export default function WeatherComponent() {
     const { input, handleInputChange, handleSubmit, isLoading, messages } = useChat();
@@ -35,7 +36,9 @@ export default function WeatherComponent() {
                     value={input}
                     onChange={handleInputChange}
                 />
-                <button className="rounded-md bg-blue-600 p-2 mt-2">Send message</button>
+                <Link href="/location">
+                    <button className="rounded-md bg-blue-600 p-2 mt-2">Send message</button>
+                </Link>
             </form>
         </div>
     );
