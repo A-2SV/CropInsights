@@ -1,7 +1,8 @@
 import Image from "next/image";
 import ChatComponent from "@/components/chatcomponent";
 import WeatherComponent from "@/components/WeatherComponent";
-import <Pest></Pest>Component from "@/components/<Pest></Pest>Component";
+import PestComponent from "@/components/PestComponent";
+// import PestComponent from "@/components/PestComponent";
 
 export default function Home() {
   // ChatComponent ? Why make a new component?
@@ -19,10 +20,9 @@ export default function Home() {
         <WeatherComponent />
       </div>
 
-      {/* Include the PestComponent here */}
       <div className="bg-slate-800 p-3 w-[800px] rounded-md text-white mt-8">
         <PestComponent />
-      </div>
+      </div> 
     </main>
   );
 }
