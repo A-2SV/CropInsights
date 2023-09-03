@@ -1,3 +1,4 @@
+"use client"
 // WeatherComponent.tsx
 import { useChat, Message } from "ai/react";
 
