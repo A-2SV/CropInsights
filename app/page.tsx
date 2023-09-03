@@ -1,8 +1,8 @@
 import Image from "next/image";
-import ChatComponent from "@/components/chatcomponent";
+import ChatComponent from "@/components/ChatComponent";
 import WeatherComponent from "@/components/WeatherComponent";
 import PestComponent from "@/components/PestComponent";
-// import PestComponent from "@/components/PestComponent";
+import DiseaseComponent from "@/components/DiseaseComponent";
 
 export default function Home() {
   // ChatComponent ? Why make a new component?
@@ -19,10 +19,16 @@ export default function Home() {
       <div className="bg-slate-800 p-3 w-[800px] rounded-md text-white mt-8">
         <WeatherComponent />
       </div>
-
+      
+      {/* Include the DiseaseComponent here */}
       <div className="bg-slate-800 p-3 w-[800px] rounded-md text-white mt-8">
         <PestComponent />
-      </div> 
+      </div>
+
+      {/* Include the DiseaseComponent here */}
+      <div className="bg-slate-800 p-3 w-[800px] rounded-md text-white mt-8">
+        <DiseaseComponent/>
+      </div>
     </main>
   );
 }
